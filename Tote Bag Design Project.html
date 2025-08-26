@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultural Identity Tote Bag Design - Student Guide</title>
+    <style>
+        @page {
+            size: A4 landscape;
+            margin: 15mm;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.5;
+            color: #000000;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 15px;
+            font-size: 11pt;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #008080;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .header h1 {
+            color: #008080;
+            font-size: 26pt;
+            margin: 0;
+            font-weight: bold;
+        }
+        
+        .header h2 {
+            color: #008080;
+            font-size: 16pt;
+            margin: 8px 0 0 0;
+            font-weight: normal;
+        }
+        
+        .project-overview {
+            background-color: #f0f8f8;
+            border: 1px solid #008080;
+            padding: 12px;
+            margin-bottom: 25px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .overview-left, .overview-right {
+            flex: 1;
+        }
+        
+        h1 {
+            color: #008080;
+            font-size: 18pt;
+            margin: 25px 0 12px 0;
+            border-bottom: 2px solid #008080;
+            padding-bottom: 4px;
+        }
+        
+        h2 {
+            color: #008080;
+            font-size: 15pt;
+            margin: 20px 0 8px 0;
+        }
+        
+        h3 {
+            color: #008080;
+            font-size: 13pt;
+            margin: 15px 0 6px 0;
+        }
+        
+        h4 {
+            color: #008080;
+            font-size: 11pt;
+            margin: 12px 0 4px 0;
+            font-weight: bold;
+        }
+        
+        p, li {
+            color: #000000;
+            margin-bottom: 6px;
+        }
+        
+        ul, ol {
+            margin: 8px 0;
+            padding-left: 22px;
+        }
+        
+        .lesson-container {
+            display: flex;
+            gap: 20px;
+            margin: 15px 0;
+            page-break-inside: avoid;
+        }
+        
+        .lesson-box {
+            border: 2px solid #008080;
+            flex: 1;
+            padding: 12px;
+            border-radius: 8px;
+            min-height: 300px;
+        }
+        
+        .lesson-title {
+            background-color: #008080;
+            color: white;
+            padding: 8px;
+            margin: -12px -12px 12px -12px;
+            border-radius: 6px 6px 0 0;
+            font-size: 13pt;
+            font-weight: bold;
+        }
+        
+        .activity-section {
+            background-color: #f9fdfd;
+            border-left: 3px solid #008080;
+            padding: 8px 12px;
+            margin: 8px 0;
+        }
+        
+        .resources-box {
+            background-color: #e6f5f5;
+            border: 1px solid #008080;
+            padding: 8px;
+            margin: 8px 0;
+            border-radius: 4px;
+        }
+        
+        .assessment-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0;
+            font-size: 10pt;
+        }
+        
+        .assessment-table th {
+            background-color: #008080;
+            color: white;
+            padding: 8px;
+            text-align: left;
+            font-size: 9pt;
+        }
+        
+        .assessment-table td {
+            border: 1px solid #008080;
+            padding: 6px;
+            font-size: 8pt;
+        }
+        
+        .note-box {
+            background-color: #fff5e6;
+            border: 2px solid #008080;
+            padding: 8px;
+            margin: 8px 0;
+            border-radius: 4px;
+        }
+        
+        .note-title {
+            color: #008080;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+        
+        .page-break {
+            page-break-before: always;
+        }
+        
+        .timeline {
+            background-color: #f0f8f8;
+            border-left: 4px solid #008080;
+            padding: 12px;
+            margin: 15px 0;
+        }
+        
+        .two-column {
+            display: flex;
+            gap: 20px;
+            margin: 15px 0;
+        }
+        
+        .column {
+            flex: 1;
+        }
+        
+        .tips-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
+            margin: 15px 0;
+        }
+        
+        .important-note {
+            background-color: #e6f7ff;
+            border: 2px solid #008080;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        @media print {
+            body { 
+                font-size: 10pt; 
+                line-height: 1.3;
+            }
+            .lesson-container {
+                page-break-inside: avoid;
+            }
+            h1 {
+                page-break-after: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Year 10 Visual Communication Design</h1>
+        <h2>Cultural Identity Tote Bag Design Project</h2>
+    </div>
+    
+    <div class="project-overview">
+        <div class="overview-left">
+            <h3>Your Project Challenge</h3>
+            <p><strong>Duration:</strong> 10 lessons</p>
+            <p><strong>What You'll Create:</strong> A4 portrait graphic design reflecting your cultural identity, printed on a tote bag</p>
+        </div>
+        <div class="overview-right">
+            <p><strong>Software You'll Use:</strong> Adobe Illustrator</p>
+            <p><strong>How You'll Be Assessed:</strong> Final presentation and printed tote bag</p>
+        </div>
+    </div>
+    
+    <div class="important-note">
+        <h3>Your Mission</h3>
+        <p>Create a meaningful design that celebrates and represents your cultural identity. This is your opportunity to explore your heritage, tell your story, and share what makes your culture special through visual design.</p>
+    </div>
+    
+    <h1>What You'll Learn</h1>
+    <div class="two-column">
+        <div class="column">
+            <p>By the end of this project, you will know how to:</p>
+            <ul>
+                <li>Research and analyse cultural visual elements (imagery, patterns, colours, stories)</li>
+                <li>Apply design thinking processes through sketching and ideation</li>
+                <li>Use Adobe Illustrator tools effectively for print-ready design creation</li>
+            </ul>
+        </div>
+        <div class="column">
+            <ul>
+                <li>Present design concepts and cultural connections confidently</li>
+                <li>Understand print production requirements and file preparation</li>
+                <li>Create authentic cultural representations through visual design</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="timeline">
+        <h3>Your Journey - 10 Lessons</h3>
+        <p><strong>Lessons 1-2:</strong> Discover Your Culture & Collect Stories | <strong>Lessons 3-4:</strong> Gather Visual Inspiration & Create Mood Boards | <strong>Lessons 5-6:</strong> Sketch Ideas & Develop Concepts | <strong>Lessons 7-8:</strong> Learn Adobe Illustrator & Create Digitally | <strong>Lessons 9-10:</strong> Complete Design & Present Your Work</p>
+    </div>
+    
+    <div class="lesson-container">
+        <div class="lesson-box">
+            <div class="lesson-title">Lesson 1: Discover Your Cultural Identity</div>
+            <h4>Explore what culture means to you and begin your research journey</h4>
+            
+            <div class="activity-section">
+                <h4>What You'll Do</h4>
+                <p><strong>Explore Culture</strong></p>
+                <ul>
+                    <li>Discover what culture means: traditions, heritage, family background, nationality, community</li>
+                    <li>Look at examples of cultural designs from around the world</li>
+                    <li>Understand your project brief and what you'll create</li>
+                </ul>
+                
+                <p><strong>Start Your Research</strong></p>
+                <ul>
+                    <li>Complete your Cultural Research Worksheet covering:
+                        <ul>
+                            <li>Your family heritage and cultural background</li>
+                            <li>Traditional patterns, colours and meanings</li>
+                            <li>Cultural stories and values</li>
+                        </ul>
+                    </li>
+                    <li>Begin online research using cultural databases</li>
+                </ul>
+                
+                <p><strong>Plan Family Interviews</strong></p>
+                <ul>
+                    <li>Prepare interview questions for family members</li>
+                    <li>Identify key family members to speak with</li>
+                    <li>Plan your approach for gathering cultural stories</li>
+                </ul>
+            </div>
+            
+            <div class="note-box">
+                <div class="note-title">Between Lessons:</div>
+                <p>Complete your family interviews about cultural traditions and begin gathering visual references that connect to your culture.</p>
+            </div>
+        </div>
+        
+        <div class="lesson-box">
+            <div class="lesson-title">Lesson 2: Family Stories & Cultural Connections</div>
+            <h4>Share your discoveries and develop your personal cultural narrative</h4>
+            
+            <div class="activity-section">
+                <h4>What You'll Do</h4>
+                <p><strong>Share Your Discoveries</strong></p>
+                <ul>
+                    <li>Share findings from your family interviews</li>
+                    <li>Create a class cultural diversity map</li>
+                    <li>Discuss surprising discoveries about your heritage</li>
+                </ul>
+                
+                <p><strong>Develop Your Cultural Story</strong></p>
+                <ul>
+                    <li>Identify personal cultural stories or memories that are meaningful to you</li>
+                    <li>Connect your stories to potential visual elements</li>
+                    <li>Complete your Cultural Story Worksheet</li>
+                    <li>Begin exploring how to translate stories into visual design</li>
+                </ul>
+                
+                <p><strong>Explore Visual Cultural Elements</strong></p>
+                <ul>
+                    <li>Identify key colours that represent your culture</li>
+                    <li>Document important symbols and their meanings</li>
+                    <li>Note traditional patterns and motifs from your research</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="lesson-container">
+        <div class="lesson-box">
+            <div class="lesson-title">Lesson 3: Visual Research & Reference Collection</div>
+            <h4>Gather comprehensive visual inspiration for your design</h4>
+            
+            <div class="activity-section">
+                <h4>What You'll Do</h4>
+                <p><strong>Systematic Visual Research</strong></p>
+                <ul>
+                    <li>Collect 10-15 high-quality visual references including:
+                        <ul>
+                            <li>Traditional patterns and textiles</li>
+                            <li>Cultural symbols and iconography</li>
+                            <li>Traditional colour combinations</li>
+                            <li>Cultural art styles and techniques</li>
+                            <li>Cultural objects and artifacts</li>
+                        </ul>
+                    </li>
+                    <li>Document the source and significance of each reference</li>
+                </ul>
+                
+                <p><strong>Analyse Cultural Designs</strong></p>
+                <ul>
+                    <li>Study cultural designs from different traditions</li>
+                    <li>Identify effective use of colour, pattern, and symbolism</li>
+                    <li>Note composition techniques and visual hierarchy</li>
+                    <li>Create visual analysis notes for future reference</li>
+                </ul>
+                
+                <p><strong>Organise Your Research</strong></p>
+                <ul>
+                    <li>Organise your visual references digitally</li>
+                    <li>Create clear file naming systems</li>
+                    <li>Prepare materials for mood board creation</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="lesson-box">
+            <div class="lesson-title">Lesson 4: Mood Board Creation & Colour Studies</div>
+            <h4>Create visual mood boards and explore cultural colour relationships</h4>
+            
+            <div class="activity-section">
+                <h4>What You'll Do</h4>
+                <p><strong>Create Your Cultural Mood Board</strong></p>
+                <ul>
+                    <li>Create a comprehensive mood board combining:
+                        <ul>
+                            <li>Visual references from your research</li>
+                            <li>Colour swatches and combinations</li>
+                            <li>Pattern samples and motifs</li>
+                            <li>Typography examples (if relevant)</li>
+                            <li>Texture and material references</li>
+                        </ul>
+                    </li>
+                    <li>Arrange elements to show visual relationships</li>
+                    <li>Add annotations explaining cultural significance</li>
+                </ul>
+                
+                <p><strong>Develop Your Colour Study</strong></p>
+                <ul>
+                    <li>Create a detailed colour palette from your cultural research</li>
+                    <li>Document colour meanings and significance</li>
+                    <li>Test colour combinations and relationships</li>
+                    <li>Consider colours suitable for printing on fabric</li>
+                </ul>
+                
+                <p><strong>Review Cultural Authenticity</strong></p>
+                <ul>
+                    <li>Verify accuracy of your visual elements</li>
+                    <li>Ensure respectful representation of your culture</li>
+                    <li>Refine your mood board based on feedback</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="lesson-container">
+        <div class="lesson-box">
+            <div class="lesson-title">Lesson 5: Initial Concept Development & Sketching</div>
+            <h4>Generate design concepts through drawing and creative ideation</h4>
+            
+            <div class="activity-section">
+                <h4>What You'll Do</h4>
+                <p><strong>Warm-up Drawing Exercises</strong></p>
+                <ul>
+                    <li>Quick cultural symbol sketches to get your creativity flowing</li>
+                    <li>Practice drawing traditional patterns or motifs</li>
+                    <li>Experiment with different drawing techniques</li>
+                </ul>
+                
+                <p><strong>Concept Development Phase 1</strong></p>
+                <ul>
+                    <li>Create 10-12 thumbnail sketches exploring different approaches:
+                        <ul>
+                            <li>Pattern-based designs</li>
+                            <li>Symbol/imagery focused designs</li>
+                            <li>Typography with cultural elements</li>
+                            <li>Abstract interpretations</li>
+                            <li>Story-based compositions</li>
+                            <li>Mixed media approaches</li>
+                        </ul>
+                    </li>
+                    <li>Focus on A4 portrait format</li>
+                    <li>Consider how your design will work on a tote bag</li>
+                </ul>
+                
+                <p><strong>Review Your Initial Concepts</strong></p>
+                <ul>
+                    <li>Review your thumbnails for cultural authenticity</li>
+                    <li>Consider visual impact and readability</li>
+                    <li>Select 4-5 strongest concepts for development</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="lesson-box">
+            <div class="lesson-title">Lesson 6: Concept Refinement & Detailed Development</div>
+            <h4>Develop and refine your selected design concepts</h4>
+            
+            <div class="activity-section">
+                <h4>What You'll Do</h4>
+                <p><strong>Detailed Concept Development</strong></p>
+                <ul>
+                    <li>Develop 3-4 chosen thumbnail concepts into larger detailed sketches</li>
+                    <li>Refine compositions and visual elements</li>
+                    <li>Consider typography needs and text placement</li>
+                    <li>Add colour notes and specifications to your sketches</li>
+                    <li>Plan technical considerations for digital creation</li>
+                </ul>
+                
+                <p><strong>Peer Feedback Sessions</strong></p>
+                <ul>
+                    <li>Present your developed concepts to small groups</li>
+                    <li>Receive feedback on:
+                        <ul>
+                            <li>Cultural authenticity and personal connection</li>
+                            <li>Visual impact and composition strength</li>
+                            <li>Technical feasibility for Adobe Illustrator</li>
+                            <li>Effectiveness for tote bag format</li>
+                        </ul>
+                    </li>
+                    <li>Document feedback for concept refinement</li>
+                </ul>
+                
+                <p><strong>Final Concept Selection</strong></p>
+                <ul>
+                    <li>Refine your chosen concept based on peer feedback</li>
+                    <li>Create final detailed sketch with complete specifications</li>
+                    <li>Gain teacher approval for your chosen direction</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="page-break"></div>
+    
+    <div class="lesson-container">
+        <div class="lesson-box">
+            <div class="lesson-title">Lesson 7: Adobe Illustrator Introduction & File Setup</div>
+            <h4>Learn digital design basics and proper file preparation</h4>
+            
+            <div class="activity-section">
+                <h4>What You'll Do</h4>
+                <p><strong>Adobe Illustrator Fundamentals</strong></p>
+                <ul>
+                    <li>Learn file setup for print (A4 portrait, 300dpi, CMYK)</li>
+                    <li>Explore the interface and customise your workspace</li>
+                    <li>Master essential tools:
+                        <ul>
+                            <li>Selection tools (V, A)</li>
+                            <li>Pen tool for creating shapes</li>
+                            <li>Shape tools (rectangle, ellipse, polygon)</li>
+                            <li>Colour palette and swatches</li>
+                            <li>Text tool basics</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <p><strong>Hands-on Practice Exercises</strong></p>
+                <ul>
+                    <li>Create basic shapes using different tools</li>
+                    <li>Practice pen tool with simple cultural symbols</li>
+                    <li>Set up colour swatches from your cultural research</li>
+                    <li>Create simple pattern elements</li>
+                    <li>Experiment with basic text formatting</li>
+                </ul>
+                
+                <p><strong>Organise Your Project File</strong></p>
+                <ul>
+                    <li>Set up project file structure and naming</li>
+                    <li>Learn layer naming and organisation</li>
+                    <li>Establish version control system</li>
+                    <li>Begin translating your final sketch concept to digital</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="lesson-box">
+            <div class="lesson-title">Lesson 8: Advanced Illustrator Techniques & Design Development</div>
+            <h4>Build your design elements using advanced digital tools</h4>
+            
+            <div class="activity-section">
+                <h4>What You'll Do</h4>
+                <p><strong>Advanced Tool Techniques</strong></p>
+                <ul>
+                    <li>Master pen tool for complex cultural shapes</li>
+                    <li>Use Pathfinder tools for combining and modifying shapes</li>
+                    <li>Create gradients and apply them effectively</li>
+                    <li>Learn pattern creation and modification tools</li>
+                    <li>Explore advanced text formatting and effects</li>
+                </ul>
+                
+                <p><strong>Design Creation Session</strong></p>
+                <ul>
+                    <li>Begin creating your cultural design elements digitally</li>
+                    <li>Focus on:
+                        <ul>
+                            <li>Main symbolic elements and cultural motifs</li>
+                            <li>Complex shapes and detailed forms</li>
+                            <li>Cultural colour application and gradients</li>
+                            <li>Pattern creation and repetition</li>
+                            <li>Proper layer organisation and naming</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <p><strong>Build Your Technical Skills</strong></p>
+                <ul>
+                    <li>Practice efficient workflow techniques</li>
+                    <li>Learn keyboard shortcuts for faster creation</li>
+                    <li>Troubleshoot common technical issues</li>
+                    <li>Review your progress and plan next steps</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="lesson-container">
+        <div class="lesson-box">
+            <div class="lesson-title">Lesson 9: Design Completion & Print Preparation</div>
+            <h4>Finalise your design and prepare files for professional production</h4>
+            
+            <div class="activity-section">
+                <h4>What You'll Do</h4>
+                <p><strong>Complete & Refine Your Design</strong></p>
+                <ul>
+                    <li>Complete all cultural design elements</li>
+                    <li>Refine and perfect:
+                        <ul>
+                            <li>Colour balance and cultural accuracy</li>
+                            <li>Pattern details and seamless repetition</li>
+                            <li>Typography integration and hierarchy</li>
+                            <li>Overall composition and visual balance</li>
+                            <li>Scale and proportion for tote bag format</li>
+                        </ul>
+                    </li>
+                    <li>Test your design at different sizes</li>
+                    <li>Create colour variations if needed</li>
+                </ul>
+                
+                <p><strong>Prepare for Professional Printing</strong></p>
+                <ul>
+                    <li>Convert all text to outlines for printing</li>
+                    <li>Check for and convert any RGB colours to CMYK</li>
+                    <li>Flatten transparency and effects if needed</li>
+                    <li>Export high-resolution PDF for professional printing</li>
+                    <li>Package complete file with all fonts and linked images</li>
+                    <li>Create backup copies and final file archive</li>
+                </ul>
+                
+                <p><strong>Prepare Your Presentation</strong></p>
+                <ul>
+                    <li>Begin planning your final presentation content</li>
+                    <li>Organise your cultural research and design development process</li>
+                    <li>Prepare to articulate your design decisions</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="lesson-box">
+            <div class="lesson-title">Lesson 10: Final Presentations & Project Reflection</div>
+            <h4>Present your completed design and reflect on your learning journey</h4>
+            
+            <div class="activity-section">
+                <h4>What You'll Do</h4>
+                <p><strong>Your Final Presentation</strong></p>
+                <p>You'll present your complete project journey including:</p>
+                <ul>
+                    <li>Your cultural background and research findings</li>
+                    <li>Family stories and personal cultural connections</li>
+                    <li>Design concept development and decision-making process</li>
+                    <li>Visual elements explanation and cultural significance</li>
+                    <li>Colour choices and their cultural meaning</li>
+                    <li>Technical challenges you overcame during creation</li>
+                    <li>How your final design authentically represents your cultural identity</li>
+                    <li>Reflection on your learning and cultural discovery</li>
+                </ul>
+                
+                <p><strong>Peer Critique & Gallery Walk</strong></p>
+                <ul>
+                    <li>View all completed designs in gallery format</li>
+                    <li>Participate in peer feedback focusing on:
+                        <ul>
+                            <li>Effective and respectful cultural representation</li>
+                            <li>Strong visual communication and design principles</li>
+                            <li>Successful technical execution and craftsmanship</li>
+                            <li>Creative problem-solving and innovation</li>
+                            <li>Authentic personal connection to cultural identity</li>
+                        </ul>
+                    </li>
+                    <li>Complete peer evaluation forms</li>
+                    <li>Engage in respectful dialogue about cultural representation</li>
+                </ul>
+                
+                <p><strong>Project Reflection</strong></p>
+                <ul>
+                    <li>Complete comprehensive reflection worksheet</li>
+                    <li>Set learning goals for future VCD projects</li>
+                    <li>Celebrate your completed work and cultural learning journey</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="page-break"></div>
+    
+    <h1>How You'll Be Assessed</h1>
+    
+    <table class="assessment-table">
+        <tr>
+            <th style="width: 20%;">What We're Looking For</th>
+            <th style="width: 20%;">Excellent (4)</th>
+            <th style="width: 20%;">Proficient (3)</th>
+            <th style="width: 20%;">Developing (2)</th>
+            <th style="width: 20%;">Beginning (1)</th>
+        </tr>
+        <tr>
+            <td><strong>Cultural Research & Understanding</strong></td>
+            <td>Comprehensive research with deep understanding of cultural elements and authentic personal connections</td>
+            <td>Good research with clear understanding and meaningful cultural connections</td>
+            <td>Basic research with some understanding and limited cultural connections</td>
+            <td>Limited research with minimal understanding and weak cultural connections</td>
+        </tr>
+        <tr>
+            <td><strong>Design Concept & Development</strong></td>
+            <td>Original, creative concept with strong cultural authenticity and sophisticated visual development</td>
+            <td>Clear concept with good cultural authenticity and solid visual development</td>
+            <td>Adequate concept with some cultural elements and basic visual development</td>
+            <td>Weak concept with minimal cultural reference and poor visual development</td>
+        </tr>
+        <tr>
+            <td><strong>Technical Skills & Execution</strong></td>
+            <td>Advanced Illustrator skills with professional-quality, print-ready files and sophisticated techniques</td>
+            <td>Proficient Illustrator use with good quality, mostly print-ready files</td>
+            <td>Basic Illustrator skills with adequate quality and some technical issues</td>
+            <td>Limited technical skills with poor quality and significant technical issues</td>
+        </tr>
+        <tr>
+            <td><strong>Visual Communication & Design</strong></td>
+            <td>Excellent composition, colour use, visual hierarchy, and cultural authenticity in visual representation</td>
+            <td>Good visual balance, effective communication, and appropriate cultural representation</td>
+            <td>Adequate visual elements with some issues in composition and cultural representation</td>
+            <td>Poor visual communication, composition, and limited cultural representation</td>
+        </tr>
+        <tr>
+            <td><strong>Presentation & Reflection</strong></td>
+            <td>Confident, articulate explanation of cultural connections, design decisions, and insightful personal reflection</td>
+            <td>Good presentation with adequate explanation of process and meaningful reflection</td>
+            <td>Basic presentation with some explanation and limited reflection</td>
+            <td>Poor presentation with minimal explanation and shallow reflection</td>
+        </tr>
+    </table>
+    
+    <div class="two-column">
+        <div class="column">
+            <h1>What You'll Need</h1>
+            
+            <div class="resources-box">
+                <h3>Technology</h3>
+                <ul>
+                    <li>Computer with Adobe Illustrator</li>
+                    <li>Internet access for cultural research</li>
+                    <li>USB drive for file storage and backup</li>
+                    <li>Scanner for incorporating hand-drawn elements (if needed)</li>
+                </ul>
+            </div>
+            
+            <div class="resources-box">
+                <h3>Art & Design Supplies</h3>
+                <ul>
+                    <li>Drawing paper (A4 and smaller sizes)</li>
+                    <li>Pencils, pens, markers for sketching</li>
+                    <li>Rulers and measuring tools</li>
+                    <li>Colour pencils for mood board creation</li>
+                    <li>Glue sticks for physical mood boards</li>
+                </ul>
+            </div>
+            
+            <div class="resources-box">
+                <h3>Research Materials</h3>
+                <ul>
+                    <li>Access to cultural databases and online archives</li>
+                    <li>Library books and cultural resources</li>
+                    <li>Recording device for family interviews</li>
+                    <li>Camera or phone for capturing visual references</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="column">
+            <h1>Your Project Checklist</h1>
+            
+            <div class="timeline">
+                <p>Before submitting your final design, make sure you have completed:</p>
+                <ul>
+                    <li>☐ Comprehensive cultural research worksheet</li>
+                    <li>☐ Family interviews and cultural story development</li>
+                    <li>☐ Visual research collection and documentation</li>
+                    <li>☐ Cultural mood board creation</li>
+                    <li>☐ Multiple concept sketches and development</li>
+                    <li>☐ Peer feedback incorporation and refinement</li>
+                    <li>☐ Final design creation in Adobe Illustrator</li>
+                    <li>☐ Print-ready file preparation and export</li>
+                    <li>☐ Presentation preparation and practice</li>
+                    <li>☐ Comprehensive project reflection worksheet</li>
+                </ul>
+            </div>
+            
+            <div class="resources-box">
+                <h3>What to Submit</h3>
+                <ul>
+                    <li>Original Adobe Illustrator (.ai) file</li>
+                    <li>High-resolution PDF for printing</li>
+                    <li>JPEG preview of your final design</li>
+                    <li>Packaged folder with all fonts and images</li>
+                    <li>Project documentation folder with your research</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <h1>Tips for Success Throughout Your Project</h1>
+    
+    <div class="tips-grid">
+        <div class="activity-section">
+            <h3>Cultural Research & Authenticity</h3>
+            <ul>
+                <li>Talk to family members, elders, and community leaders for authentic stories and insights</li>
+                <li>Look beyond the obvious - explore lesser-known cultural elements and personal family traditions</li>
+                <li>Consider how your culture has evolved and adapted over time and geography</li>
+                <li>Don't worry if your heritage is mixed - celebrate the diversity and choose elements that resonate most with you</li>
+                <li>Always respect your culture and avoid stereotypes or inappropriate use of sacred elements</li>
+                <li>Document sources and meanings behind all cultural elements you use in your design</li>
+            </ul>
+        </div>
+        
+        <div class="activity-section">
+            <h3>Design Development & Visual Communication</h3>
+            <ul>
+                <li>Start with simple shapes and build complexity gradually through your design process</li>
+                <li>Think about how your design will look at different sizes and on various materials</li>
+                <li>Test your colour combinations for cultural accuracy and visual impact</li>
+                <li>Keep cultural authenticity as your primary priority throughout all design decisions</li>
+                <li>Consider the balance between traditional elements and contemporary design approaches</li>
+                <li>Ensure your design tells your cultural story clearly and respectfully</li>
+            </ul>
+        </div>
+        
+        <div class="activity-section">
+            <h3>Technical Execution & Digital Skills</h3>
+            <ul>
+                <li>Save your work frequently and in multiple formats to prevent data loss</li>
+                <li>Organise your layers clearly with descriptive names for easy editing</li>
+                <li>Always work in CMYK colour mode for printing to ensure accurate colours</li>
+                <li>Ask for help when you're stuck - don't struggle alone with technical challenges</li>
+                <li>Practice Illustrator techniques outside of class to build confidence and speed</li>
+                <li>Keep backup copies of your work at different stages of development</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="two-column">
+        <div class="column">
+            <h1>Getting Started - Questions to Ask Yourself</h1>
+            
+            <div class="activity-section">
+                <h3>About Your Culture</h3>
+                <ul>
+                    <li>What cultural background(s) do I identify with?</li>
+                    <li>What are the most important stories in my family?</li>
+                    <li>What colours, patterns, or symbols are significant in my culture?</li>
+                    <li>What cultural traditions do I participate in or observe?</li>
+                    <li>What makes me proud of my cultural heritage?</li>
+                    <li>How has my culture influenced who I am today?</li>
+                </ul>
+                
+                <h3>About Your Design</h3>
+                <ul>
+                    <li>What story do I want my design to tell?</li>
+                    <li>What visual elements best represent my culture?</li>
+                    <li>How can I make my design both traditional and contemporary?</li>
+                    <li>What will make my design stand out and be memorable?</li>
+                    <li>How can I ensure my design is respectful and authentic?</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="column">
+            <h1>Common Challenges & Solutions</h1>
+            
+            <div class="activity-section">
+                <h3>If You're Stuck on Cultural Research</h3>
+                <ul>
+                    <li><strong>Try:</strong> Talking to different family members - aunts, uncles, grandparents</li>
+                    <li><strong>Try:</strong> Looking at family photos and asking about the stories behind them</li>
+                    <li><strong>Try:</strong> Researching your family's country or region of origin</li>
+                    <li><strong>Try:</strong> Exploring cultural communities in your area</li>
+                    <li><strong>Remember:</strong> Even small cultural details can make powerful designs</li>
+                </ul>
+                
+                <h3>If You're Struggling with Adobe Illustrator</h3>
+                <ul>
+                    <li><strong>Try:</strong> Starting with simple shapes and building complexity slowly</li>
+                    <li><strong>Try:</strong> Watching online tutorials for specific techniques</li>
+                    <li><strong>Try:</strong> Asking classmates or your teacher for help</li>
+                    <li><strong>Try:</strong> Practising with simple exercises outside of class</li>
+                    <li><strong>Remember:</strong> Everyone learns at their own pace - don't get discouraged</li>
+                </ul>
+                
+                <h3>If Your Design Isn't Working</h3>
+                <ul>
+                    <li><strong>Try:</strong> Going back to your cultural research for new inspiration</li>
+                    <li><strong>Try:</strong> Simplifying your concept and focusing on key elements</li>
+                    <li><strong>Try:</strong> Getting feedback from peers and your teacher</li>
+                    <li><strong>Try:</strong> Looking at how other designers represent culture</li>
+                    <li><strong>Remember:</strong> Good design often comes from multiple iterations</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="important-note">
+        <h3>Remember: This is YOUR Story</h3>
+        <p>This project is about celebrating what makes your cultural identity unique and special. Don't worry about comparing your culture to others - focus on what makes you proud of your heritage and how you can share that pride through beautiful, meaningful design.</p>
+    </div>
+    
+    <div class="timeline">
+        <h3>Assessment Schedule</h3>
+        <p><strong>Check-In Points Throughout Your Journey:</strong></p>
+        <ul>
+            <li><strong>Lesson 2:</strong> Cultural research and story development quality</li>
+            <li><strong>Lesson 4:</strong> Visual research collection and mood board creation</li>
+            <li><strong>Lesson 6:</strong> Concept development and peer feedback incorporation</li>
+            <li><strong>Lesson 8:</strong> Technical skill development and digital creation progress</li>
+            <li><strong>Lesson 9:</strong> Design completion and print preparation accuracy</li>
+            <li><strong>Lesson 10:</strong> Final presentation, completed design, and comprehensive project reflection</li>
+        </ul>
+    </div>
+    
+</body>
+</html>
